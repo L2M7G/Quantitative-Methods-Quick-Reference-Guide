@@ -18,7 +18,7 @@ The goal is to make it easy to:
 - [Markdown Reference](Markdown_Reference.md)
 ### Methods
 - [Ordinary Least Squares](Methods/OLS.md)
-- [Fixed-Effects](Fixed_Effects.md)
+- [Fixed-Effects](Methods/Fixed_Effects.md)
 
 
 ### Planned

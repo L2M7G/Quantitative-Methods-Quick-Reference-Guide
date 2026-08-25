@@ -11,30 +11,35 @@ The goal is to make it easy to:
 - Quickly reference the syntax for implementing methods in different languages
 - Compare implementations across R, Stata, and Python
 
-## Repository Contents
-
-### Quantitative-Methods-Quick-Reference-Guide
+## Contents
 
 - [Markdown Reference](Markdown_Reference.md)
+
 ### Methods
 - [Ordinary Least Squares](Methods/OLS.md)
 - [Fixed-Effects](Methods/Fixed_Effects.md)
+- [First-Difference](Methods/First_Difference.md)
+- [Instrumental Variable](Methods/Instrumental_Variables.md)
+- [Difference-in-Differences](Methods/Diff_in_Diff.md)
+- [Regression Discontinuity](Methods/Regression_Discontinuity.md)
 
+### Inference
+- [Standard Errors](Inference/Standard_Errors.md)
+- [Bootstrap](Inference/Bootstrap.md)
+- [Hypothesis Testing](Inference/Hypothesis_Testing.md)
 
-### Planned
-##### Methods
-- First Difference
-- Clustered Standard Errors
-- Bootstrap
-- Basic Data Visualizations
+### Exploratory Data Analysis
+- [Cross Sectional Data]
+- [Panel Data]
+- [Time Series Data]
+- [Categorical Data]
 
-
-##### Statistical Inference
-- Clustered Standard Errors
-- Bootstrap
-
-##### Data Visualization
-- Basic Data Visualizations
+### Data Visualization
+- [Histograms]
+- [Boxplots]
+- [Scatterplots]
+- [Bar Charts]
+- [Line Charts]
 
 ## Languages
 

@@ -49,12 +49,13 @@ Y_i = \beta_0 + \beta_1X_i + \epsilon_i
 $$
 ```
  
-### Common Math Symbols
+### Common Math Syntax
 |Syntax| Result |
 |---|---|
 |\beta|$\beta$|
 |\epsilon|	$\epsilon$|
 |\alpha	|$\alpha$|
+| \Delta | $\Delta$
 |X_i	|$X_i$|
 |X_{it}	|$X_{it}$|
 |\hat{\beta}|	$\hat{\beta}$|
@@ -64,6 +65,9 @@ $$
 |\neq	|$\neq$|
 |\leq	|$\leq$|
 |\geq	|$\geq$|
+|||
+|\qquad |space|
+|\sqrt{} |$\sqrt{}$|
 
 
 

@@ -65,6 +65,8 @@ Where:
     - Control group is similar to the treatment group in the initial period.
     - The two groups have similar trends before the treatment. 
 
+---
+<br><br>
 
 ## R 
 
@@ -148,7 +150,8 @@ summary(pre_trends_model)
 - `Treat * time_variable` = includes treatment status, time, and their interaction
 - `Treat:time_variable` = estimates the difference in pre-treatment trends between the treatment and control groups (this should not be statistically significant)
 
-
+---
+<br><br>
 ## Stata
 
 ### Estimate Model
@@ -215,6 +218,8 @@ regress Y c.time_variable##i.Treat if Post == 0
 - `if Post == 0` = keeps only pre-treatment observations
 - `Treat#time_variable` = estimates the difference in pre-treatment trends between the treatment and control groups
 
+---
+<br><br>
 
 ## Python
 
@@ -282,3 +287,5 @@ print(pre_trends_model.summary())
 - `Treat * time_variable` = includes treatment status, time, and their interaction
 - `.fit()` = fits the model
 - `Treat:time_variable` = estimates the difference in pre-treatment trends between the treatment and control groups
+
+---

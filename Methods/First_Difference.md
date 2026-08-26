@@ -25,7 +25,7 @@ Where:
 - Requires observations for the same units over multiple periods.  
 - Requires variation within individual units over time.    
 
-**## Assumptions**
+## Assumptions
 
 - **\*\*Within-unit variation:\*\*** The explanatory variables have variation over time within individual units.
 

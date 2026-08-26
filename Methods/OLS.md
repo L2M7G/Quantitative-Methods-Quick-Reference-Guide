@@ -38,7 +38,7 @@ $$E[\epsilon_i | X_i] = 0$$
 
 ```r
 # Estimate OLS model
-model_name <- lm(Y ~ X1 + X2, data = dataset_name)
+model_name <- lm(Y ~ X1 + X2, data = dataset_name)nhh
 
 # View Results
 summary(model_name)

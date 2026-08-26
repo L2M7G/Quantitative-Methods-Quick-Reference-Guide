@@ -33,6 +33,8 @@ $$E[\epsilon_i | X_i] = 0$$
 
 *Note: Normality and homoskedasticity are relevant for inference. 
 
+---
+<br><br>
 
 ## R
 
@@ -60,6 +62,8 @@ summary(model_name)
   - $R^2$
   - adjusted $R^2$
 
+---
+<br><br>
 
 ## Stata
 
@@ -77,6 +81,8 @@ regress Y X1 X2
 
 **Notes:** Any variables listed after `Y` are explanatory variables.  No dataset is specified as the dataset is loaded into Stata.    
 
+---
+<br><br>
 
 ## Python
 ```python
@@ -96,3 +102,5 @@ print(model_name.summary())
 - `.fit()` = fits the model to the data and estimates the coefficients
 - `model_name` = assigns the model the specified name
 - `model_name.summary()` = display regression results
+
+---

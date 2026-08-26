@@ -49,6 +49,9 @@ $$
 
 *Note: Normality and homoskedasticity are relevant for inference. Serial correlation can also affect inference and may require appropriate standard errors.
 
+---
+<br><br>
+
 ## R
 
 ```R
@@ -70,6 +73,9 @@ summary(model_name)
 - `model = "fd"` = specifies the first difference model
 - `model_name <-` = saves the model under the specified name
 
+---
+<br><br>
+
 ## Stata
 
 ```stata
@@ -87,6 +93,9 @@ xtreg Y X1 X2, fd
 - `Y` = dependent variable
 - `X1 X2` = explanatory variables
 - `fd` = specifies the first-difference model
+
+---
+<br><br>
 
 ## Python
 
@@ -114,3 +123,5 @@ print(model_name)
 - `dataset_name[["X1", "X2"]]` = specifies the explanatory variables
 - `.fit()` = fits the model to the data and estimates the coefficients
 - `print(model_name)` = displays the regression results
+
+---

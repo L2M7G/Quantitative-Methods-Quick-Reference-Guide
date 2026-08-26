@@ -49,6 +49,9 @@ $$
 
 *Note: Normality and homoskedasticity are relevant for inference. Serial correlation can also affect inference and may require appropriate standard errors.
 
+---
+<br><br>
+
 ## R
 
 ```r
@@ -77,6 +80,9 @@ summary(model_name)
 
 ****Note:** `effect = "twoways"` for both individual and time fixed effects. Other options include `effect = "individual"` and `effect = "time"`.
 
+---
+<br><br>
+
 ## Stata
 ```stata
 * Specify Panel Structure
@@ -93,6 +99,9 @@ xtreg Y X1 X2 i.time_variable, fe
 - `X1 X2` = explanatory variables
 - `i.time_variable` = uses the specified time variable to include time fixed effects
 - `fe` = specifies the individual fixed effects model
+
+---
+<br><br>
 
 ## Python
 ```python
@@ -122,3 +131,5 @@ print(model_name)
 - `time_effects = True` = includes time fixed effects
 - `.fit()` = fits the model to the data and estimates the coefficients
 - `print(model_name)` = displays the regression results
+
+---

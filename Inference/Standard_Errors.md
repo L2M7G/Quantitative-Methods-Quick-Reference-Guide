@@ -11,6 +11,9 @@ $$
 t = \frac{\hat{\beta} - \beta_0}{SE(\hat{\beta})} \qquad\qquad \hat{\beta} \pm t_{\alpha/2}SE(\hat{\beta})
 $$
 
+---
+<br><br>
+
 ## Conventional Standard Errors
 - Assume that errors are homoskedastic and independent.
 
@@ -36,6 +39,8 @@ print(model_name.summary())
 - `statsmodels.formula.api` = module required to use summary() for the specified model.
 - `model_name.summary()` = displays the regression results, including the conventional SEs for the specified model
 
+---
+<br><br>
 
 ## Heteroskedastic Robust Standard Errors
 - Used when there is heteroskedasticity (the variance of the error term is not constant across observations).
@@ -99,6 +104,9 @@ print(model_name.summary())
 - `cov_type="HC1"` = specifies HC1 heteroskedasticity-robust standard errors
 - `print(model_name.summary())` = displays the regression results, including the robust standard errors
 
+---
+<br><br>
+
 ## Clustered Standard Errors
 - Account for within-group/cluster corelation.
 - Errors may be correlated within groups.
@@ -148,6 +156,8 @@ print(model_name.summary())
 - `cov_type = "cluster"` = specifies cluster-robust standard errors
 - `cov_kwds = {"groups": dataset_name["unit_variable"]}` = specifies the variable used to define the clusters
 
+---
+<br><br>
 
 ## Choosing Standard Errors
 
@@ -157,3 +167,5 @@ Homoskedastic, independent errors|	Conventional
 Heteroskedasticity	|Heteroskedasticity-robust
 Correlation within groups	|Cluster-robust
 Panel data with repeated observations	|Often cluster by individual/unit
+
+---

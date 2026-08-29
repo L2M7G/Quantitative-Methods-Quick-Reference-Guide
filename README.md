@@ -26,20 +26,7 @@ The goal is to make it easy to:
 ### Inference
 - [Standard Errors](Inference/Standard_Errors.md)
 - [Bootstrap](Inference/Bootstrap.md)
-- [Hypothesis Testing](Inference/Hypothesis_Testing.md)
 
-### Exploratory Data Analysis
-- [Cross Sectional Data]
-- [Panel Data]
-- [Time Series Data]
-- [Categorical Data]
-
-### Data Visualization
-- [Histograms]
-- [Boxplots]
-- [Scatterplots]
-- [Bar Charts]
-- [Line Charts]
 
 ## Languages
 
